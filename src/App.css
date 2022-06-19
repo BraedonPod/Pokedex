@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
-}
+.Dark {background: #040706 !important;}
+.Dragon {background: #378A94 !important;}
+.Bug {background: #179A55 !important;}
+.Electric {background: #cfd350 !important;}
+.Fairy {background: #9E1A44 !important;}
+.Fire {background: #B22328 !important;}
+.Flying {background: #90B1C5 !important;}
+.Ghost {background: #363069 !important;}
+.Ice {background: #7ECFF2 !important;}
+.Poison {background: #642785 !important;}
+.Psychic {background: #AC296B !important;}
+.Rock {background: #4B190E !important;}
+.Steel {background: #5C756D !important;}
+.Water {background: #2648DC !important;}
+.Fighting {background: #9F422A !important;}
+.Grass {background: #007C42 !important;}
+.Ground {background: #AD7235 !important;}
+.Normal {background: #FFCA8179 !important;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Weaknesses {
+  overflow-x: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 768px) {
+  .Weaknesses {
+    overflow-x: scroll;
   }
 }

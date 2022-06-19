@@ -1,3 +1,11 @@
+# Features to Add
+
+Loads 38mb worth of pictures
+
+Pagenation
+
+Fix performance
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
